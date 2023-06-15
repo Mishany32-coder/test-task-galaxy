@@ -114,6 +114,7 @@
       font-weight: 900;
       font-size: 96px;
       @include adaptiveValue("font-size", 96, 48, 0, $pcMD, $tabletMD);
+      @include adaptiveValue("font-size", 48, 32, 0, $tabletMD, 320);
       line-height: 1;
       letter-spacing: 0.07em;
       padding-bottom: 22px;
