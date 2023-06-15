@@ -1,0 +1,72 @@
+%ic {
+   font-family: "icons";
+   font-style: normal;
+   font-weight: normal;
+   font-variant: normal;
+   text-transform: none;
+   line-height: 1;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+[class*="_icon-"] {
+   &:before {
+      @extend %ic;
+      display: block;
+   }
+}
+
+._icon-arrow-down:before {
+   content: "\e90e";
+}
+._icon-phone:before {
+   content: "\e900";
+   color: #878787;
+}
+._icon-footer-logo:before {
+   content: "\e901";
+   color: #fff;
+}
+._icon-instagram:before {
+   content: "\e902";
+   color: #fff;
+}
+._icon-cursor:before {
+   content: "\e903";
+   color: #fff;
+}
+._icon-logoico:before {
+   content: "\e904";
+   color: #fff;
+}
+._icon-logotext:before {
+   content: "\e905";
+   color: #fff;
+}
+._icon-viber:before {
+   content: "\e906";
+   color: #878787;
+}
+._icon-telegram:before {
+   content: "\e907";
+   color: #878787;
+}
+._icon-search:before {
+   content: "\e908";
+}
+._icon-login:before {
+   content: "\e909";
+}
+._icon-favorites:before {
+   content: "\e90a";
+}
+._icon-basket:before {
+   content: "\e90b";
+}
+._icon-facebook:before {
+   content: "\e90c";
+   color: #fff;
+}
+._icon-convert:before {
+   content: "\e90d";
+   color: #fff;
+}
